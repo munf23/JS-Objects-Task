@@ -26,9 +26,9 @@ To submit your project, follow these steps:
 
 ## Resources
 Here are some resources that may be helpful for completing this project:
-- MDN Web Docs: Objects
-- JavaScript.info: Objects
-- W3Schools: JavaScript Objects
+- [MDN Web Docs: Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+- [JavaScript.info: Objects](https://javascript.info/object)
+- [W3Schools: JavaScript Objects](https://www.w3schools.com/js/js_objects.asp)
 
 
 And.. Don't forget to enjoy the journey!😉
