@@ -21,7 +21,11 @@ In this project, you will create an object in JavaScript that represents your fa
 6. Test the methods and properties of the object in the console to make sure they work as expected.
 
 ## Submitting the Task
-To submit your project, follow these steps:
+After completing the tasks, please follow the instructions below to submit your work:
+1. Run git add . in your terminal to track the changes
+2. Run git commit -m "" to stage the changes
+3. Run git push to push the changes to your forked repository
+4. Create a pull request to submit your work for review
 
 
 ## Resources
