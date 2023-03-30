@@ -9,16 +9,21 @@ In this project, you will create an object in JavaScript that represents your fa
 
 ## Task Instructions
 1. Choose your favorite movie.
-2. Create an object in JavaScript that represents that movie. The object should have the following properties:
-- title (a string)
-- year (a number)
-- director (a string)
-- actors (a string)
-- rating (a number)
-3. Add at least 3 methods to the object that perform some action related to the movie you chose.
-4. Create at least one instance of the object.
-5. Modify the properties of the object to represent your favorite movie, including adding a new property called myRating and adding your rating about the movie.
-6. Test the methods and properties of the object in the console to make sure they work as expected.
+2. Create a JavaScript object that represents the movie with the following properties:
+  - `title` (a string)
+  - `year` (a number)
+  - `director` (a string)
+  - `actors` (a string)
+  - `rating` (a number)
+3. Add three methods to the object that perform the following actions related to the movie:
+  - `timesWatched()`: Returns the number of times you have watched the movie.
+  - `recommend()`: Prints a message recommending the movie to a friend.
+  - `summary()`: Prints a paragraph summarizing the movie's information, including the title, year, director, actors, and rating.
+4. Create a copy of the object.
+5. Modify the properties of the new object to represent another favorite movie.
+6. Add a new property called myRating and include your rating of the movie.
+7. Test the object's methods and properties in the console to ensure they function as expected.
+
 
 ## Submitting the Task
 After completing the tasks, please follow the instructions below to submit your work:
