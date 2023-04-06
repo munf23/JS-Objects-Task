@@ -9,16 +9,22 @@ In this project, you will create an object in JavaScript that represents your fa
 
 ## Task Instructions
 1. Choose your favorite movie.
-2. Create a JavaScript object that represents the movie with the following properties:
-  - `title` (a string)
-  - `year` (a number)
-  - `director` (a string)
-  - `actors` (a string)
-  - `rating` (a number)
-3. Add three methods to the object that perform the following actions related to the movie:
-  - `timesWatched()`: Returns the number of times you have watched the movie.
-  - `recommend()`: Prints a message recommending the movie to a friend.
-  - `summary()`: Prints a paragraph summarizing the movie's information, including the title, year, director, actors, and rating.
+2.Create a JavaScript object that represents a movie with the following properties:
+- `title` (a string)
+- `year` (a number)
+- `director` (a string)
+- `actors` (a string)
+- `rating` (a number)
+- `timesWatched` (a number, representing the number of times you have watched the movie)
+3. The movie object should also have the following methods:
+- `recommend()`: Prints a message recommending the movie to a friend.
+- `summary()`: Prints a paragraph summarizing the movie's information, including the title, year, director, actors, and rating.
+- `watch()`: This method increments the `timesWatched` property by 1, representing that the movie has been watched one more time.
+- `setRating(newRating)`: This method takes a new rating as an argument and updates the `rating` property of the movie object with the new value.
+- `addActor(actorName)`: This method takes an actor's name as an argument and appends it to the `actors` property, which represents the list of actors in the movie.
+- `isPopular()`: This method returns a boolean value indicating whether the movie is popular or not, based on its rating.
+- `resetWatched()`: This method resets the `timesWatched` property to 0, indicating that the movie has not been watched yet.
+
 4. Create a copy of the object.
 5. Modify the properties of the new object to represent another favorite movie.
 6. Add a new property called myRating and include your rating of the movie.
